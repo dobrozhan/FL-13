@@ -1,0 +1,79 @@
+#root {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: left;
+}
+
+.book-list {
+  text-align: center;
+  width: 25%;
+  background-color: grey;
+}
+
+.book-list h3 {
+  border-bottom: 2px solid greenyellow;
+}
+
+.book-action {
+  text-align: center;
+  width: 25%;
+  background-color: green;
+}
+
+.book-action h3 {
+  border-bottom: 2px solid greenyellow;
+}
+
+.book {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 5px;
+}
+
+.add-button {
+  margin: 5px;
+}
+
+.book p, .edit-button, .add-button {
+  cursor: pointer;
+}
+
+.preview-wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.preview-wrapper > div {
+  text-align:  justify;
+  padding: 10px;
+}
+
+.edit-wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.edit-wrapper > form {
+  margin: 5px;
+}
+
+.edit-button-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+}
+
+.edit-button-wrapper > button {
+  cursor: pointer;
+  margin: 30px;
+}
+
+.required {
+  background-color: red;
+}
