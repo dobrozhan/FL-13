@@ -1,0 +1,87 @@
+.icon-bar {
+  display: block;
+  width: 2rem;
+  height: 0.2rem;
+  border-radius: 0.2rem;
+  background-color: #777;
+  margin: 0.4rem;
+}
+
+.display-3 {
+  font-weight: 400 !important;
+  font-size: 5rem !important;
+} 
+
+.header__text {
+  margin-top: 1rem !important;;
+  font-size: 2.5rem !important;
+  text-align: left;
+}
+
+.btn__header--orange {
+  background-color: #ff7f50 !important;
+  color: #fff;
+  border: none;
+  margin-bottom: 2rem !important;
+  font-size: 2.3rem !important;
+}
+
+.section__heading--text {
+  font-size: 2rem !important;
+}
+
+.section__card--text {
+  font-size: 1.6rem !important;
+}
+
+.footer_text--size {
+  font-size: 1.6rem !important;
+}
+
+.btn__footer--orange {
+  background-color: #ff7f50 !important;
+  color: #fff;
+  border: none;
+  margin-bottom: 2rem !important;
+}
+
+.lg-nav__text {
+  font-size: 1.5rem !important;
+}
+
+.position-relative {
+  cursor: pointer;
+  bottom: 15px;
+  left: 60px;
+}
+
+.btn__footer--grey {
+  background-color: rgb(41, 39, 39) !important;
+  color: #fff;
+  border-radius: 0 !important;
+  margin-bottom: 1.5rem !important;
+}
+
+@media (min-width: 992px) {
+  .header__text--lg-screen {
+    font-size: 3rem !important;
+    font-weight: 500 !important;
+  }
+
+  .lg-header {
+    margin-top: 5rem;
+  }
+
+  .header__text--lg {
+    font-size: 1.7rem !important;
+    padding-bottom: 2rem !important;
+  }
+
+  .header__btn-lg {
+    font-size: 2rem !important;
+  }
+
+  .section-card-text {
+    font-size: 1.6rem !important;
+  }
+}
